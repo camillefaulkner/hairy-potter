@@ -29,7 +29,7 @@ toSellOrNotToSell(firedSculpture)
 
 // Invoke the component function that renders the HTML list
 let allPottery = makePottery()
-const displayPottery = potteryList() //!
+const displayPottery = PotteryList() //!
 const parentHTMLElement = document.querySelector(".potteryList")
 parentHTMLElement.innerHTML = potteryList(allPottery)
 
